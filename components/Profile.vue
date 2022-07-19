@@ -21,7 +21,7 @@
                 (Watt)
               </v-list-item-title>
               <v-list-item-subtitle class="mb-1">Born: 17/ 11 /1999</v-list-item-subtitle>
-              <br />
+              <br>
               <v-list-item-subtitle class="mb-1">Nationality: Thai</v-list-item-subtitle>
             </v-list-item-content>
 
@@ -39,16 +39,12 @@
                 <h4>Education</h4>
               </div>
               <v-list-item-title class="text-h5 mb-1">
-                Watthanatham Kruram
+                Hamster School
               </v-list-item-title>
-              <v-list-item-subtitle>Born: 17/11/1999</v-list-item-subtitle>
-              <br />
+              <v-list-item-subtitle></v-list-item-subtitle>
+              <br>
               <v-list-item-subtitle></v-list-item-subtitle>
             </v-list-item-content>
-
-            <v-avatar size="120" class="ml-10">
-              <v-img :src="require('../assets/images/student_ham.jpg')"></v-img>
-            </v-avatar>
           </v-list-item>
         </v-card>
       </v-col>
@@ -59,19 +55,22 @@
               <div class="text-overline h4 mb-4">
                 <h4>Skills</h4>
               </div>
-              <v-list-item-title class="text-h5 mb-1">
-                Watthanatham Kruram
-              </v-list-item-title>
-              <v-list-item-subtitle
-                >I want to be Programmer.</v-list-item-subtitle
-              >
-              <br />
-              <v-list-item-subtitle>Hello</v-list-item-subtitle>
+              <br>
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>NodeJs</li>
+                  <li>VueJs</li>
+                  <li>NuxtJs</li>
+                  <li>SQL</li>
+                  <li>NoSQL</li>
+              </ul>
+              <br>
             </v-list-item-content>
 
-            <v-avatar size="120">
-              <v-img :src="require('../assets/images/student_ham.jpg')"></v-img>
-            </v-avatar>
           </v-list-item>
         </v-card>
       </v-col>
